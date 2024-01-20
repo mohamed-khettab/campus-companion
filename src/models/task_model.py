@@ -4,7 +4,6 @@ import os
 class TaskModel:
     TASKS_FILE = "data/tasks.txt"
 
-    @staticmethod
     def load_tasks():
         try:
             if os.path.getsize(TaskModel.TASKS_FILE) > 0:
@@ -18,7 +17,6 @@ class TaskModel:
             tasks = []
         return tasks
 
-    @staticmethod
     def save_task(task_text):
         tasks = TaskModel.load_tasks()
         tasks.append(task_text)
@@ -26,7 +24,6 @@ class TaskModel:
         with open(TaskModel.TASKS_FILE, "wb") as file:
             pickle.dump(tasks, file)
 
-    @staticmethod
     def remove_task(task_text):
         tasks = TaskModel.load_tasks()
 

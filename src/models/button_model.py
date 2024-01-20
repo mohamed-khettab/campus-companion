@@ -1,5 +1,4 @@
 class ButtonModel:
-    @staticmethod
     def change_color(textbox, color):
         selected_text = textbox.tag_ranges('sel')
         if selected_text:
@@ -9,7 +8,6 @@ class ButtonModel:
             textbox.tag_remove(tag, selected_text[0], selected_text[1])
             textbox.tag_add(tag_name, selected_text[0], selected_text[1])
 
-    @staticmethod
     def insert_bullet_point(textbox):
         current_index = textbox.index("insert")
         bullet_point_text = "\n    \u2022"
