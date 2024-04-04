@@ -1,6 +1,6 @@
 # Built for FalconHacks 2023 Hackathon
 
-!["Campus Companion GUI"]("https://github.com/mohamed-khettab/campus-companion/assets/93957717/282e5c71-31d5-4a1b-8240-5cd53b508714")
+<img width="1102" alt="Campus Companion GUI" src="https://github.com/mohamed-khettab/campus-companion/assets/93957717/03c1bbd7-9fc6-428c-9c95-6e79154469d3">
 
 ## Overview
 
